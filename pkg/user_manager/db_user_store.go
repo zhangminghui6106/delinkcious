@@ -5,7 +5,7 @@ import (
 	"fmt"
 	sq "github.com/Masterminds/squirrel"
 	_ "github.com/lib/pq"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	om "github.com/zhangminghui6106/delinkcious/pkg/object_model"
 	"math/rand"
 	"strconv"
 )

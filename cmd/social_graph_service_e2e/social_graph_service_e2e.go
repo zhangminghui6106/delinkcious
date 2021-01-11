@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 	_ "github.com/lib/pq"
-	"github.com/the-gigi/delinkcious/pkg/social_graph_client"
+	"github.com/zhangminghui6106/delinkcious/pkg/social_graph_client"
 	"log"
 	"os"
 	"os/exec"

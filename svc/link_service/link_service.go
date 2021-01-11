@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	httptransport "github.com/go-kit/kit/transport/http"
-	lm "github.com/the-gigi/delinkcious/pkg/link_manager"
-	sgm "github.com/the-gigi/delinkcious/pkg/social_graph_client"
+	lm "github.com/zhangminghui6106/delinkcious/pkg/link_manager"
+	sgm "github.com/zhangminghui6106/delinkcious/pkg/social_graph_client"
 )
 
 func main() {
