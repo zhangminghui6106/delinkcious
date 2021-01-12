@@ -1,5 +1,7 @@
 module github.com/the-gigi/delinkcious
 
+go 1.15
+
 require (
 	github.com/Masterminds/squirrel v0.0.0-20181030160206-3ba160b0147f
 	github.com/davecgh/go-spew v1.1.1 // indirect
