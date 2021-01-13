@@ -11,9 +11,6 @@ SVC_DIR="${ROOT_DIR}/svc"
 cd $SVC_DIR
 docker login -u itinfomation -p Zmh920226docker!
 for svc in *; do
-    if [[ -f README.md]]; then
-        continue
-    fi
     cd "${SVC_DIR}/$svc"
     if [[ ! -f Dockerfile ]]; then
         continue
