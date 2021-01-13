@@ -1,11 +1,17 @@
 package service
 
+import "errors"
+
 import (
 	"errors"
+	//http传输包对于使用HTTP传输的服务是必须的
 	httptransport "github.com/go-kit/kit/transport/http"
+	//提供路由功能
 	"github.com/gorilla/mux"
 	sgm "github.com/zhangminghui6106/delinkcious/pkg/social_graph_manager"
+	//记录日志
 	"log"
+	//提供http服务
 	"net/http"
 )
 
