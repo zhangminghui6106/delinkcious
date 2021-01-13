@@ -55,8 +55,8 @@ func Run() {
 	r := mux.NewRouter()
 	r.Methods("POST").Path("/follow").Handler(followHandler)
 	r.Methods("POST").Path("/unfollow").Handler(unfollowHandler)
-	r.Methods("GET").Path("/following/{username}").Handler(getFollowingHandler)
-	r.Methods("GET").Path("/followers/{username}").Handler(getFollowersHandler)
+	r.Methods("POST").Path("/following").Handler(getFollowingHandler)
+	r.Methods("POST").Path("/followers").Handler(getFollowersHandler)
 
 	log.Println("Listening on port 9090...")
 	log.Fatal(http.ListenAndServe(":9090", r))
