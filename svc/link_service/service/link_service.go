@@ -2,7 +2,7 @@ package service
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/the-gigi/delinkcious/pkg/db_util"
+	"github.com/zhangminghui6106/delinkcious/pkg/db_util"
 	"log"
 	"net/http"
 
