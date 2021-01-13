@@ -1,6 +1,9 @@
 version: 2
 jobs:
   build:
+    branches:
+      only:
+        - v0.9-dev
     docker:
     - image: circleci/golang:1.11
     - image: circleci/postgres:9.6-alpine
