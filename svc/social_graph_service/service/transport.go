@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"github.com/go-kit/kit/endpoint"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	om "github.com/zhangminghui6106/delinkcious/pkg/object_model"
 	"net/http"
 	"strings"
 )
