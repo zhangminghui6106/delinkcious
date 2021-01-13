@@ -1,7 +1,5 @@
 package service
 
-import "errors"
-
 import (
 	"errors"
 	//http传输包对于使用HTTP传输的服务是必须的
