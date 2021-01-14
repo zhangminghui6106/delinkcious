@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: link-manager
+  name: link-manager-v2
   labels:
     svc: link
     app: manager
@@ -18,7 +18,7 @@ spec:
         app: manager
     spec:
       containers:
-      - name: link-manager
+      - name: link-manager-v2
         image: itinfomation/delinkcious-link:0.2
         ports:
         - containerPort: 8080
@@ -26,7 +26,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: link-manager
+  name: link-manager-v2
 spec:
   ports:
   - port:  8080
