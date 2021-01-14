@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	_ "github.com/lib/pq"
-	"github.com/the-gigi/delinkcious/pkg/db_util"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
-	"github.com/the-gigi/delinkcious/pkg/user_client"
+	"github.com/zhangminghui6106/delinkcious/pkg/db_util"
+	om "github.com/zhangminghui6106/delinkcious/pkg/object_model"
+	"github.com/zhangminghui6106/delinkcious/pkg/user_client"
 	"log"
 	"os"
 	"os/exec"

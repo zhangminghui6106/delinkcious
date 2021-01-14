@@ -2,13 +2,13 @@ package service
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/the-gigi/delinkcious/pkg/db_util"
+	"github.com/zhangminghui6106/delinkcious/pkg/db_util"
 	"log"
 	"net/http"
 	"os"
 
 	httptransport "github.com/go-kit/kit/transport/http"
-	sgm "github.com/the-gigi/delinkcious/pkg/user_manager"
+	sgm "github.com/zhangminghui6106/delinkcious/pkg/user_manager"
 )
 
 func Run() {

@@ -4,9 +4,9 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/the-gigi/delinkcious/pkg/db_util"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	"github.com/zhangminghui6106/delinkcious/pkg/db_util"
 	"log"
+	om "github.com/zhangminghui6106/delinkcious/pkg/object_model"
 )
 
 var _ = Describe("DB link store tests", func() {

@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: link-db
+  name: link-db-v2
   labels:
     svc: link
     app: postgres
@@ -18,7 +18,7 @@ spec:
         app: postgres
     spec:
       containers:
-      - name: postgres
+      - name: postgres-v2
         image: postgres:11.1-alpine
         ports:
         - containerPort: 5432
@@ -33,7 +33,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: link-db
+  name: link-db-v2
 spec:
   ports:
   - port: 5432

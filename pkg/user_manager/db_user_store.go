@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	sq "github.com/Masterminds/squirrel"
 	_ "github.com/lib/pq"
-	"github.com/the-gigi/delinkcious/pkg/db_util"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	"github.com/zhangminghui6106/delinkcious/pkg/db_util"
+	om "github.com/zhangminghui6106/delinkcious/pkg/object_model"
 	"math/rand"
 	"strconv"
 )

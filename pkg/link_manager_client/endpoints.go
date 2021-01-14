@@ -7,7 +7,7 @@ import (
 	"github.com/go-kit/kit/endpoint"
 	"net/http"
 
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	om "github.com/zhangminghui6106/delinkcious/pkg/object_model"
 )
 
 type SimpleResponse struct {

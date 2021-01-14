@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	_ "github.com/lib/pq"
-	"github.com/the-gigi/delinkcious/pkg/db_util"
-	"github.com/the-gigi/delinkcious/pkg/link_manager_client"
-	om "github.com/the-gigi/delinkcious/pkg/object_model"
+	"github.com/zhangminghui6106/delinkcious/pkg/db_util"
+	"github.com/zhangminghui6106/delinkcious/pkg/link_manager_client"
+	om "github.com/zhangminghui6106/delinkcious/pkg/object_model"
 	"log"
 	"os"
 	"os/exec"
@@ -81,7 +81,7 @@ func main() {
 	log.Print("gigi's links:", links)
 
 	err = cli.AddLink(om.AddLinkRequest{Username: "gigi",
-		Url:   "https://github.com/the-gigi",
+		Url:   "https://github.com/zhangminghui6106",
 		Title: "Gigi on Github",
 		Tags:  map[string]bool{"programming": true}})
 	check(err)
@@ -90,7 +90,7 @@ func main() {
 	log.Print("gigi's links:", links)
 
 	err = cli.UpdateLink(om.UpdateLinkRequest{Username: "gigi",
-		Url:         "https://github.com/the-gigi",
+		Url:         "https://github.com/zhangminghui6106",
 		Description: "Most of my open source code is here"},
 	)
 

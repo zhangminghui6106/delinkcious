@@ -4,13 +4,13 @@ import (
 	"fmt"
 	httptransport "github.com/go-kit/kit/transport/http"
 	"github.com/gorilla/mux"
-	"github.com/the-gigi/delinkcious/pkg/db_util"
-	lm "github.com/the-gigi/delinkcious/pkg/link_manager"
-	sgm "github.com/the-gigi/delinkcious/pkg/social_graph_client"
+	"github.com/zhangminghui6106/delinkcious/pkg/db_util"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
+	lm "github.com/zhangminghui6106/delinkcious/pkg/link_manager"
+	sgm "github.com/zhangminghui6106/delinkcious/pkg/social_graph_client"
 )
 
 func Run() {
