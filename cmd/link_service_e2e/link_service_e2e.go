@@ -77,7 +77,7 @@ func main() {
 	log.Print("gigi's links:", links)
 
 	err = cli.AddLink(om.AddLinkRequest{Username: "gigi",
-		Url:   "https://github.com/the-gigi",
+		Url:   "https://github.com/zhangminghui6106",
 		Title: "Gigi on Github",
 		Tags:  map[string]bool{"programming": true}})
 	check(err)
@@ -86,7 +86,7 @@ func main() {
 	log.Print("gigi's links:", links)
 
 	err = cli.UpdateLink(om.UpdateLinkRequest{Username: "gigi",
-		Url:         "https://github.com/the-gigi",
+		Url:         "https://github.com/zhangminghui6106",
 		Description: "Most of my open source code is here"},
 	)
 
